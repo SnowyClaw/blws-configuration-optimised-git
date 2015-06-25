@@ -1,0 +1,1 @@
+gksudo -m "Please enter your password to fix the permissions." "bash /usr/share/blws-all-in-one/.Fix\ SS\ Perms.sh"

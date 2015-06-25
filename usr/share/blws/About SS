@@ -1,0 +1,39 @@
+##NOTE! Every sound in /usr/share/SS/System/Sounds needs to be in mp3 format!
+##DM and Lock need to be jpg and png, respectivly.
+
+Hello. SS is a folder in /usr/share.
+It stands for, "Super Share."
+Out of the box, permissions will be WRONG. To fix this, please run the automated script.
+SS comes with sounds and themes. You can delete and modify everything in SS/Themes,
+as long as these conditions are met:
+
+1: To keep tidy, do not leave loose images in this folder.
+2: In order for certain BLWS applications to work, the file structure must be as follows:
+	themename/Gfx: Graphics folder
+	themename/Sfx: Recommended, but not required. (Sound themes generally go in
+	SS/System/Sounds/Themes, anyway.)
+
+That's all! Now on to the System folder.
+SS/System/ contains Sounds/ and DM.jpg. DM.jpg, when used with the optional
+LXDM configuration, will be used on the main logon screen. You could change
+other DMs to do the same.
+
+SS/System/Sounds/ is an important part of BLWS apps. If you use the apps, sound will
+be heard, depending on events.
+
+SS/System/Sounds/guest & /snowyclaw: These are example user folders. You should exclude
+Shutdown.mp3 and Startup.mp3, as they will not be used. You can delete these example
+folders, if you wish.
+If you want sounds for your user, create the directories like this:
+SS/System/Sounds/USER. Doing this will enable sounds for you or others.
+
+Recommended perms:
+User folders should be owned by that user and have 0755 (rwxr-xr-x) permissions.
+
+SS/System/Sounds/root: This is root's main sound files. **Needed!**
+SS/System/Sounds/Themes: Sound themes for the users. This folder is not constructed in
+a special way. While not needed to have this folder, it's strongly recommended to keep
+organized.
+
+--Thank you for reading--
+~SnowyClaw~
